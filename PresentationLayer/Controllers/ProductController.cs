@@ -26,6 +26,7 @@ namespace PresentationLayer.Controllers
             return Ok(product);
         }
 
+        // this comment for test git push
         [HttpPost]
         public IActionResult Add([FromBody] Product product)
         {
